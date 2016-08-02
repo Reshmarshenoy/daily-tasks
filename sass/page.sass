@@ -1,5 +1,6 @@
 @import page1
 
+
 h1 
   color:white
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif
@@ -16,10 +17,29 @@ h1
   font-size: 1.1em
   font-weight: 300
 
+
+
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+.box
+  +border-radius(10px)
+
+
+@function strip-unit($value) 
+  @return $value / ($value * 0 + 1)
+
+
+$length : 42em
+$int    : strip-unit($length)
+
 body 
   @extend .doc
   background-color: black
   text-align: center
-  color: darkred
+  color: $int
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif
   font-size: 1em
