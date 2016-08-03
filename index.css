@@ -1,0 +1,50 @@
+.navbar-inner
+{
+    background-color:green;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkblue;
+}
+
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+.ear{
+    padding-top: 2px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 900px;
+
+}
+
+.butt{
+    padding-top: 2px;
+    padding-right: 20px;
+    padding-left: 1100px;
+}
