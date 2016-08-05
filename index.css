@@ -82,9 +82,16 @@ li a:hover {
 #icon2{
       background-color: dodgerblue;
       border-radius:100%;
-      border: 1x  white;
-      padding:0px;
-     
+      border: 4px  white;
+    font-size: 20px;
+     padding: 10px;
+   }
+   #icon3{
+      background-color: dodgerblue;
+      border-radius:100%;
+      border: 4px  white;
+    font-size: 20px;
+     padding: 0;
    }
 
    td{
@@ -124,4 +131,16 @@ table{
     padding-left: 40px;
     height: 50px;
     padding-bottom: 50px;
+}
+
+
+.wrapper {
+   position: relative;
+}
+
+.wrapper .fa {
+   position: absolute;
+   top: 130px;
+   left: 90px;
+  padding-right: 5px;
 }
