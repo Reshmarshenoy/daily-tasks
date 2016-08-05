@@ -1,0 +1,38 @@
+@charset "utf-8";
+@import "normalize";
+@import "foundation.css";
+@import "app.css";
+
+
+#bkimg{
+  background-image: url("bg4.jpg");
+  background-size: 100%;
+  min-height: 400px;
+  min-width: 1300px;
+}
+
+#clr{
+  color: white;
+}
+
+.cent{
+  padding-top: 180px;
+  padding-left: 250px;
+}
+.cent1{
+  padding-top: 0px;
+  padding-left: 250px;
+}
+
+
+.menu{
+  background-color: black;
+}
+
+#fon{
+  font-family: sans-serif;
+}
+
+#clr2{
+  color: red;
+}
